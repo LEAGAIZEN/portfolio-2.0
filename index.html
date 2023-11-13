@@ -3,8 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <body class="light-mode">
+        <!-- Your website content goes here -->
+      
+        <!-- Dark mode toggle button -->
+        <button id="darkModeToggle">Toggle Dark Mode</button>
 </head>
 <body>
     <header class="header">
@@ -33,7 +42,7 @@
             <a href="#"><i class='bx bxl-facebook' ></i></box-icon></a>
             <a href="#"><i class='bx bxl-linkedin' ></i></box-icon></a>
             <a href="#"><i class='bx bxl-discord' ></i></box-icon></a>
-            <a href="#"><i class='bx bxl-reddit' ></i></box-icon></a>
+            <a href="#"><i class='bx bxl-github'></i></box-icon></a>
           </div>
           <a href="#" class="btn">Download CV</a>
          </div>
@@ -72,8 +81,9 @@
         <div class="about-content">
             <h2 class="heading"><span>ABOUT-ME</span></h2>
             <h3>hi, Lets make new project</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                Voluptates rerum ad adipisci cumque facere! Atque expedita blanditiis <br>
+            <p>My name is BIJENDRA Yadav <br>
+                I am intersted in coding but dor my hobbiesi like to write stories
+                 <br>
                 
                 temporibus maxime! Reprehenderit amet officiis doloribus repudiandae,<br>
                  impedit neque quam doloremque corrupti esse.
@@ -178,6 +188,54 @@
                 </div>
             </div>
         </section>
+        <div class="testimonial-container">
+            <h2 class="heading"><span>Certificates</span></h2>
+            <div class="testimonial-wrapper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./images/ra2211003012073.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225113.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225124.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225620.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-12 002714.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225620.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225620.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225620.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/Screenshot 2023-11-11 225620.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2><div class="heading">Contact <span>Me!</span></h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="number" placeholder="Mobile number">
+                            <input type="text" placeholder="Email Subject">
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Mesaage"></textarea>
+                        <input type="submit" value="Send Message" class="btn">
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy: 2023 by codehal |All Rights Reserved.</p>
+            </div>
+            <div class="footer-icontop">
+                <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body> 
 </html>
